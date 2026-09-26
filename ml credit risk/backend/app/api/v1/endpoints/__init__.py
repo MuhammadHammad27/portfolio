@@ -1,0 +1,4 @@
+from backend.app.api.v1.endpoints.health import router as health_router
+from backend.app.api.v1.endpoints.predict import router as predict_router
+
+__all__ = ["health_router", "predict_router"]
